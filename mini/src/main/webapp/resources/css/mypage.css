@@ -1,0 +1,95 @@
+iframe {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    display: inline;
+}
+/* 프로필 */
+.profile img{
+    border-radius: 50%;
+    float: left;
+    
+}
+.profile,
+.profile-img {
+    /* border: 1px solid green; */
+    height: 80px;
+}
+.mp-info{
+    /* border: 1px solid rebeccapurple; */
+    display: inline-block;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.mp-info .name{
+    font-size: 25px;
+}
+.mp-info .view{
+    color: rgb(114, 109, 109);
+}
+.profile .button{
+    /* border: 1px solid red; */
+    float: right;
+    display: inline-block;
+    height: 80px;
+    padding-top: 50px;
+}
+
+/* 업로드한 동영상 */
+.upload{
+    /* border: 1px solid green; */
+    height: 300px;
+}
+.upload_video{
+    float: left;
+    /* border: 1px solid red; */
+    width: 322px;
+    margin: 3px;
+}
+.upload_video li{
+    list-style: none;
+}
+.upload_video .views{
+    margin-top: 5px;
+    color: darkgray;
+}
+/* .upload_video img{
+    float: left;
+} */
+.head_title{
+    font-size: 20px;
+}
+
+/* 추천 채널 */
+.recommended{
+    height: 300px;
+    /* border: 1px solid aqua; */
+}
+.recommend{
+    float: left;
+    margin-right: 20px;
+}
+.recommend img{
+    width: 130px;
+    border-radius: 50%;
+}
+.recommend li{
+    list-style: none;
+    text-align: center;
+}
+.channel-views{
+    color: rgb(95, 95, 95);
+}
+.recommend button{
+    display: block;
+    margin: auto;
+}
+
+/* 정보 */
+.info li{
+    list-style: none;
+}
+.info{
+    margin-bottom: 10px;
+}

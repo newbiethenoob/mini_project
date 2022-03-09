@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="http://127.0.0.1:5500/css/header.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/css/index.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/css/notice.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/css/admin.css">
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- header-->
+    <iframe src="http://127.0.0.1:5500/admin/admin_header.html" height="200px" width="100%" style="overflow: hidden;"
+        scrolling="no"></iframe>
+
+    <!-- 관리자 카테고리 -->
+    <div class="container">
+        <div class="admin">
+
+            <div class="card">
+                <div class="card-header">사용자 관리</div>
+                <div class="card-body">
+                    <li>
+                        <a href="http://127.0.0.1:5500/admin/admin_user_list.html" target="_blank">사용자 목록</a>
+                    </li>
+                    <li>
+                        <a href="#">메세지 보내기</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/admin/admin_list.html" target="_blank">운영진 설정</a>
+                    </li>
+                    <li>
+                        <a href="#">메일 발송 설정</a>
+                    </li>
+                    <li>
+                        <a href="#">SMS/알림톡 설정</a>
+                    </li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">컨텐츠 관리</div>
+                <div class="card-body">
+                    <li>
+                        <a href="#">게시물 관리</a>
+                    </li>
+                    <li>
+                        <a href="#">댓글 관리</a>
+                    </li>
+                    <li>
+                        <a href="#">입력폼 관리</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/admin/admin_notice.html" target="_blank">공지사항 관리</a>
+                    </li>
+                    <li>
+                        <a href="#">일정 관리</a>
+                    </li>
+                    <li>
+                        <a href="#">갤러리 관리</a>
+                    </li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">신고/차단 관리</div>
+                <div class="card-body">
+                    <li>
+                        <a href="#">신고 관리</a>
+                    </li>
+                    <li>
+                        <a href="#">차단 요청 관리</a>
+                    </li>
+                </div>
+            </div>  
+       
+            <div class="card">
+                <div class="card-header">관리자 프로필</div>
+                <img class="card-img-top" src="image/admin_profile.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <li>관리자</li>
+                  <li>만료일 : 2022-05-22</li>
+                  <a href="#" class="btn btn-outline-primary btn-sm">See Profile</a>
+                </div>
+            </div>
+
+        </div>
+   </div>
+    <!-- footer -->
+    <iframe src="http://127.0.0.1:5500/footer.html" height="100%" width="100%"
+        style="overflow-x: hidden; overflow-y: hidden;" scrolling="no"></iframe>
+</body>
+
+</html>

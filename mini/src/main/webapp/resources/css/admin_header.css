@@ -1,0 +1,128 @@
+:root{
+    /* color */
+    --white-color : white;
+    --black-color : black;
+    --blue-color : blue;
+    --red-color : red;
+    --darkgray-color: darkgrey;
+    --lightgray-color: lightgray;
+    /* size */
+    --side-padding: 10px;
+    --avatar-size: 26px;
+    /* font size  */
+    --font-large: 18px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+/* header */
+header{
+    height: 85px;
+    justify-content: space-between;
+    padding: var(--side-padding);
+    background-color: var(--black-color);
+    width: 99%;
+    color: var(--white-color);
+
+}
+
+header .logo{
+    display: inline-block;
+    padding-right: 40%;
+    font-size: var(--font-large);
+    font-weight: bold;
+    /*border: 1px solid blue;*/    
+}
+
+header .logo i{
+    color: var(--red-color);
+}
+
+.logo a{
+    list-style: none;
+    color: var(--white-color);
+    text-decoration-line: none;
+}
+
+
+
+/* search  */
+header .icons .fa-search{
+    margin-right: auto;
+}
+header .search{
+    display: inline-block;
+    /* padding-right: 10%; */
+    /* border: 1px solid blue; */
+}
+.search .input{
+    font-size: 22px;
+    /* padding: var(--side-padding); */
+    float: left;
+    /* border: 3px solid red; */
+}
+
+/* member */
+header .member-panel {
+    display: inline-block;
+    float: right;
+    /* border: 1px solid blue; */
+}
+.member-panel img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.member-panel .name{
+    /* border: 1px solid aqua; */
+    display: inline-block;
+    height: 30px;
+    float: right;
+    padding-top: 5px;
+    padding-left: 2px;
+
+}
+
+.header_top{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: block;
+}
+
+/* category */
+#category_bar { 
+    margin:0; 
+    padding: 18px var(--side-padding);
+    background-color: var(--black-color);
+    color: var(--white-color);    
+    /*border: 1px solid green;*/
+    height: 32px;
+    width: 98%;
+    display: block;
+}
+.cf {   
+
+    /*border: 1px solid aqua;*/
+    height: 30px;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+
+}
+#category_bar li { 
+    font-size:16px; 
+    display: inline-block;
+    padding: 0 20px;
+}
+#category_bar li a { 
+    color: var(--white-color);
+    text-decoration-line: none;
+    font-weight: bold;
+}
+#category_bar li:hover {
+    color: var(--red-color);
+}
+
+

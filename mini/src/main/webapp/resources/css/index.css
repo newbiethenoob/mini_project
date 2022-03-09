@@ -1,0 +1,47 @@
+:root{
+    /* color */
+    --white-color : white;
+    --black-color : black;
+    --blue-color : blue;
+    --red-color : red;
+    --darkgray-color: darkgrey;
+    --lightgray-color: lightgray;
+    --lightblack-color: rgb(102, 102, 102);
+    /* size */
+    --side-padding: 12px;
+    --avatar-size: 26px;
+    /* font size  */
+    --font-large: 18px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    display: inline;
+}
+
+.mainItem{
+    top: 0;
+    list-style: none;
+    float: left;
+    padding: var(--side-padding);
+}
+
+.mainItem .mainInfo .profile img{
+    border-radius: 50%;
+    float: left;
+    padding: var(--side-padding);
+}
+
+.mainInfo .info {
+    padding: var(--side-padding);
+}
+
+.info .name,
+.info .views_period {
+    color: var(--lightblack-color);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 공지사항</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/css/header.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/css/index.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/css/notice.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/css/admin_notice.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- admin header-->
+    <iframe src="http://127.0.0.1:5500/admin/admin_header.html" height="200px" width="100%" style="overflow: hidden;"
+        scrolling="no"></iframe>
+    <!-- 관리자가 보는 공지사항 페이지 -->
+    <div class="container">
+        <h1>공지사항</h1>
+        <button type="button" class="btn btn-outline-secondary">삭제</button> 
+        <button type="button" class="btn btn-outline-secondary">수정</button> 
+        <button type="button" class="btn btn-outline-secondary">글쓰기</button> 
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>닐짜</th>
+                    <th>조회수</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>21</td>
+                    <td>[최신 업데이트] 더 많은 앱과 기기에서 감독 환경 사용</td>
+                    <td>admin</td>
+                    <td>2022.1.13</td>
+                    <td>123</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>[최신 업데이트] KR 가격 변경</td>
+                    <td>admin</td>
+                    <td>2022.1.13</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>[개인정보처리 방침 변경] 6개월 간 개인정보 처리 내역</td>
+                    <td>admin</td>
+                    <td>2022.1.14</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>[최신 업데이트] 구독 컬렉션</td>
+                    <td>admin</td>
+                    <td>2022.1.14</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>[공지사항] 공지사항 이용 안내</td>
+                    <td>admin</td>
+                    <td>2022.1.20</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <div class="text-center">
+            <ul class="pagination justify-content-center" style="margin:20px 0">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item active"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <iframe src="http://127.0.0.1:5500/footer.html" height="100%" width="100%"
+        style="overflow-x: hidden; overflow-y: hidden;" scrolling="no"></iframe>
+
+</body>
+
+</html>
